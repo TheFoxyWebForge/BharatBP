@@ -76,6 +76,8 @@ justify-content: space-between;
 padding: 20px 80px;
 background-color: rgb(255, 255, 255);
 box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+position:fixed;
+width: 100%;
 
 }
 
@@ -267,7 +269,7 @@ transition: 0.3s;
 
 
 
-
+/* 
       .main-banner .wrapper {
         position: relative;
         padding-top: 200px;
@@ -328,8 +330,8 @@ transition: 0.3s;
     padding-bottom: 10%;
   }
   
-  
-  .box{
+   */
+  /* .box11{
   
     font-weight: bold;
    
@@ -339,8 +341,7 @@ transition: 0.3s;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 0 1px 1rem rgb(27, 143, 114);
-    color: rgb(240, 231, 247);
+  
     }
 
 
@@ -351,7 +352,7 @@ transition: 0.3s;
     font-size:1.3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+ */
 
 
 section {
