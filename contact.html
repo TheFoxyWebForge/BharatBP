@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="loader"></div>
+<section id="header">
+
+<a href=""> <img src="logo.png" class="logo" alt=""> </a>
+<div>
+<ul id="navbar">
+<li> <a class="active" href="index.html">HOME </a> </li>
+<li> <a href="about.html">About Us</a> </li>
+<!-- <li> <a href="blog.html">Blog </a> </li>-->
+<li> <a href="mission.html">Mission </a> </li> 
+<li> <a href="contact.html">Contact </a> </li>
+<li id="lg-bag"><a href="index.html"><i class="fas fa-shopping-bag"></i></a></li>
+<a href="#" id="close"> <i class="far fa-window-close"></i></a>
+
+
+</ul>
+
+
+</div>
+
+<div id="mobile">
+    <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+
+    <i id="bar" class="fas fa-outdent"></i>
+
+</div>
+
+</section>
+
+<center>
+    <section style="padding: 10% 10%;">
+
+
+        <h1>Contact Form</h1>
+<br><br><br><br>
+<div class="container">
+  <form action="/index.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="canada">india</option>
+        <option value="usa">korea</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    </section>
+</center>
+
+<footer id="footer" style="color: rgb(172, 86, 221); " data-aos="fade-up">
+    <center>
+      <h2 style="font-size: 40px; ">Contact Us</h2>
+    </center>
+   
+    
+  <a class="" href="http://www.mulberrymarketing.in"><i class="social-icon fas fa-globe"></i>
+  </a>
+  <a href="mailto:mediamulberry@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
+  <a href="https://www.linkedin.com/company/mulberrymarketingsolutions/"><i class="social-icon fab fa-linkedin"></i></a>
+    <p style=" color: rgb(0, 0, 0); font-size: 20px;">@mulberrymarketing. in</p>
+  <br><br>
+  </footer>
+  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $(".loader").fadeOut(2000);
+    });
+</script>
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>
