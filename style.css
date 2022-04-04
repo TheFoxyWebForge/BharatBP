@@ -549,3 +549,14 @@ padding-bottom: 8%;
 padding-left: 8%;
 padding-right: 10%;
 }
+
+
+.pp{
+  text-align: justify;
+  justify-content: center;
+  font-size: larger;
+  font-style: italic;
+  padding:0% 5%;
+  padding-bottom: 13%;
+
+}
